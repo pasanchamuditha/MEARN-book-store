@@ -1,0 +1,47 @@
+.banner .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+  .banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+.banner .swiper-slide:nth-child(1n) {
+    background-image: url('src/assets/bannerbooks/bookone.jpg');
+  }
+  
+  .banner .swiper-slide:nth-child(2n) {
+    background-image: url('src/assets/bannerbooks/bookeight.jpg');
+  }
+  
+  .banner .swiper-slide:nth-child(3n) {
+    background-image: url('src/assets/bannerbooks/booktwo.jpg');
+  }
+  
+  .banner .swiper-slide:nth-child(4n) {
+    background-image: url('src/assets/bannerbooks/bookthree.jpg');
+  }
+  
+  .banner.swiper-slide:nth-child(5n) {
+    background-image: url('src/assets/bannerbooks/bookfour.jpg');
+  }
+  
+  .banner .swiper-slide:nth-child(6n) {
+    background-image: url('src/assets/bannerbooks/bookfive.jpg');
+  }
+  
+  .banner .swiper-slide:nth-child(7n) {
+    background-image: url('src/assets/bannerbooks/booksix.jpg');
+  }
+  
+  .banner .swiper-slide:nth-child(8n) {
+    background-image: url('src/assets/bannerbooks/bookseven.jpg');
+  }
+  
